@@ -1,0 +1,57 @@
+
+Nucleic acid sequence Maximum Likelihood method, version 3.697
+
+
+Empirical Base Frequencies:
+
+   A       0.19685
+   C       0.32380
+   G       0.30449
+  T(U)     0.17485
+
+
+Transition/transversion ratio =   2.000000
+
+
+  +sample2   
+  |  
+  |  +sample8   
+  |  |  
+  |  |     +sample6   
+  1--6  +--4  
+  |  |  |  |  +sample7   
+  |  |  |  +--5  
+  |  +--2     |  +sample5   
+  |     |     +--3  
+  |     |        +sample4   
+  |     |  
+  |     +sample3   
+  |  
+  +sample1   
+
+
+remember: this is an unrooted tree!
+
+Ln Likelihood = -3555.10270
+
+ Between        And            Length      Approx. Confidence Limits
+ -------        ---            ------      ------- ---------- ------
+
+     1          sample1           0.00070     (     zero,     0.00208)
+     1          sample2           0.00006     (     zero,     0.00114)
+     1             6              0.02492     (  0.01648,     0.03337) **
+     6          sample8           0.00006     (     zero,     0.00206)
+     6             2              0.00390     (     zero,     0.00865) **
+     2             4              0.00434     (     zero,     0.00895) **
+     4          sample6           0.00006     (     zero,     0.00155)
+     4             5              0.00177     (     zero,     0.00467) *
+     5          sample7           0.00006     (     zero,     0.00219)
+     5             3              0.00003     (     zero,     0.00208)
+     3          sample5           0.00149     (     zero,     0.00349) **
+     3          sample4           0.00123     (     zero,     0.00293) **
+     2          sample3           0.00006     (     zero,     0.00149)
+
+     *  = significantly positive, P < 0.05
+     ** = significantly positive, P < 0.01
+
+

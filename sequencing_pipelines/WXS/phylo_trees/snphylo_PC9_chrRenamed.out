@@ -1,0 +1,250 @@
+Start to remove low quality data.
+
+158541 low quality lines were removed.
+
+SNPRelate
+Start snpgdsVCF2GDS ...
+	Extracting bi-allelic and polymorhpic SNPs.
+	Scanning ...
+	file: snphylo.output.filtered.vcf
+	content: 98819 rows x 17 columns
+Tue Jul  9 02:43:38 2019 	store sample id, snp id, position, and chromosome.
+	start writing: 8 samples, 81419 SNPs ...
+	file: snphylo.output.filtered.vcf
+[1] 1
+[1] 897
+[1] 1773
+[1] 2597
+[1] 3435
+[1] 4254
+[1] 5104
+[1] 5920
+[1] 6781
+[1] 7633
+[1] 8486
+[1] 9328
+[1] 10151
+[1] 11026
+[1] 11879
+[1] 12685
+[1] 13501
+[1] 14349
+[1] 15219
+[1] 16064
+[1] 16908
+[1] 17752
+[1] 18562
+[1] 19384
+[1] 20286
+[1] 21086
+[1] 21863
+[1] 22692
+[1] 23503
+[1] 24237
+[1] 25061
+[1] 25874
+[1] 26724
+[1] 27553
+[1] 28353
+[1] 29227
+[1] 30059
+[1] 30935
+[1] 31732
+[1] 32578
+[1] 33417
+[1] 34310
+[1] 35080
+[1] 35878
+[1] 36749
+[1] 37589
+[1] 38425
+[1] 39293
+[1] 40205
+[1] 41050
+[1] 41946
+[1] 42818
+[1] 43672
+[1] 44553
+[1] 45405
+[1] 46285
+[1] 47155
+[1] 47979
+[1] 48871
+[1] 49728
+[1] 50559
+[1] 51393
+[1] 52142
+[1] 52950
+[1] 53798
+[1] 54596
+[1] 55453
+[1] 56260
+[1] 57072
+[1] 57964
+[1] 58780
+[1] 59653
+[1] 60541
+[1] 61424
+[1] 62286
+[1] 63107
+[1] 63986
+[1] 64843
+[1] 65669
+[1] 66460
+[1] 67322
+[1] 68116
+[1] 68975
+[1] 69857
+[1] 70722
+[1] 71576
+[1] 72453
+[1] 73320
+[1] 74190
+[1] 75060
+[1] 75885
+[1] 76753
+[1] 77618
+[1] 78520
+[1] 79389
+[1] 80139
+[1] 80965
+Tue Jul  9 02:44:03 2019 	Done.
+Hint: it is suggested to call `snpgdsOpen' to open a SNP GDS file instead of `openfn.gds'.
+SNP pruning based on LD:
+Excluding 0 SNP on non-autosomes
+Excluding 43,058 SNPs (monomorphic: TRUE, MAF: 0.1, missing rate: 0.1)
+Working space: 8 samples, 38,361 SNPs
+    using 1 (CPU) core
+    sliding window: 500,000 basepairs, Inf SNPs
+    |LD| threshold: 0.1
+    method: composite
+Chromosome 1: 3.28%, 268/8,175
+Chromosome 2: 3.83%, 246/6,420
+Chromosome 3: 4.52%, 220/4,868
+Chromosome 4: 4.82%, 145/3,006
+Chromosome 5: 3.44%, 106/3,083
+Chromosome 6: 5.14%, 178/3,461
+Chromosome 7: 4.26%, 202/4,746
+Chromosome 8: 4.03%, 102/2,531
+Chromosome 9: 3.22%, 118/3,668
+Chromosome 10: 3.54%, 131/3,696
+Chromosome 11: 3.23%, 158/4,892
+Chromosome 12: 3.60%, 169/4,693
+Chromosome 13: 2.72%, 37/1,358
+Chromosome 14: 3.83%, 103/2,691
+Chromosome 15: 3.73%, 109/2,925
+Chromosome 16: 1.88%, 69/3,665
+Chromosome 17: 1.91%, 68/3,554
+Chromosome 18: 3.73%, 36/966
+Chromosome 19: 1.68%, 94/5,603
+Chromosome 20: 3.82%, 89/2,332
+Chromosome 21: 3.68%, 39/1,060
+Chromosome 22: 2.93%, 56/1,914
+Chromosome 23: 5.79%, 77/1,331
+Chromosome 24: 11.11%, 2/18
+Chromosome 25: 6.67%, 1/15
+Chromosome 26: 100.00%, 1/1
+Chromosome 31: 8.70%, 2/23
+Chromosome 33: 2.44%, 1/41
+Chromosome 34: 8.33%, 1/12
+Chromosome 37: 50.00%, 1/2
+Chromosome 38: 100.00%, 1/1
+Chromosome 42: 15.38%, 2/13
+Chromosome 43: 7.14%, 1/14
+Chromosome 48: 6.67%, 2/30
+Chromosome 52: 100.00%, 1/1
+Chromosome 54: 2.44%, 1/41
+Chromosome 55: 4.00%, 1/25
+Chromosome 59: 100.00%, 1/1
+Chromosome 61: 25.00%, 1/4
+Chromosome 92: 2.50%, 1/40
+Chromosome 97: 5.00%, 1/20
+Chromosome 170: 6.25%, 1/16
+Chromosome 175: 100.00%, 1/1
+Chromosome 178: 33.33%, 1/3
+Chromosome 179: 7.14%, 2/28
+Chromosome 183: 100.00%, 1/1
+Chromosome 192: 66.67%, 2/3
+Chromosome 194: 4.76%, 1/21
+Chromosome 196: 100.00%, 1/1
+Chromosome 208: 100.00%, 1/1
+Chromosome 214: 25.00%, 1/4
+Chromosome 219: 50.00%, 1/2
+Chromosome 226: 6.67%, 1/15
+Chromosome 239: 16.67%, 1/6
+Chromosome 259: 16.67%, 1/6
+Chromosome 262: 33.33%, 1/3
+Chromosome 270: 50.00%, 1/2
+Chromosome 288: 25.00%, 1/4
+Chromosome 294: 16.67%, 1/6
+Chromosome 301: 7.69%, 1/13
+Chromosome 318: 12.50%, 1/8
+Chromosome 320: 16.67%, 1/6
+Chromosome 325: 6.25%, 1/16
+Chromosome 329: 18.18%, 2/11
+Chromosome 400: 25.00%, 1/4
+Chromosome 403: 4.35%, 2/46
+Chromosome 407: 31.25%, 5/16
+Chromosome 410: 50.00%, 1/2
+Chromosome 432: 5.88%, 1/17
+Chromosome 442: 11.11%, 2/18
+Chromosome 448: 11.76%, 2/17
+Chromosome 450: 50.00%, 1/2
+Chromosome 451: 100.00%, 1/1
+Chromosome 452: 100.00%, 1/1
+Chromosome 458: 25.00%, 1/4
+Chromosome 685: 100.00%, 1/1
+Chromosome 747: 1.83%, 2/109
+Chromosome 860: 100.00%, 1/1
+Chromosome 950: 33.33%, 1/3
+Chromosome 1124: 33.33%, 1/3
+Chromosome 1349: 100.00%, 1/1
+2,893 markers are selected in total.
+[2J[H
+[2J[HNucleic acid sequence Maximum Likelihood method, version 3.697
+
+Settings for this run:
+  U                 Search for best tree?  Yes
+  T        Transition/transversion ratio:  2.0000
+  F       Use empirical base frequencies?  Yes
+  C                One category of sites?  Yes
+  R           Rate variation among sites?  constant rate
+  W                       Sites weighted?  No
+  S        Speedier but rougher analysis?  Yes
+  G                Global rearrangements?  No
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4       Write out trees onto tree file?  Yes
+  5   Reconstruct hypothetical sequences?  No
+
+  Y to accept these or type the letter for one to change
+
+Adding species:
+   1. sample1   
+   2. sample2   
+   3. sample3   
+   4. sample4   
+   5. sample5   
+   6. sample6   
+   7. sample7   
+   8. sample8   
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Done.
+
+Error in .External2(C_X11, paste0("png::", filename), g$width, g$height,  : 
+  unable to start device PNG
+Calls: png
+In addition: Warning message:
+In png(filename = image_file.name, width = 1000, height = 1000) :
+  unable to open connection to X11 display ''
+Execution halted
